@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+     <head>
+          <meta charset="UTF-8">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <link rel="stylesheet" href="style.css">
+          <title>Portfolio</title>
+     </head>
+
+     <body>
+          <div class="container">
+               <div class="heading">
+                    <h1>Portfolio</h1>
+               </div>
+               <div class="form">
+                    <form action="query.php" method="post"  enctype="multipart/form-data">
+                         <fieldset>
+                              <legend>Personal Details</legend>
+
+                              <label for="name">Enter your fullname :</label>
+                              <input type="text" name="name" id="name"><br>
+
+                              <label for="specialization">Enter your specialization :</label>
+                              <input type="text" name="specialization" id="specialization"><br>
+
+                              <label for="contact">Enter your contact number :</label>
+                              <input type="tel" name="contact" id="contact"><br>
+
+                              <label for="email">Enter your email :</label>
+                              <input type="email" name="email" id="email"><br>
+
+                              <label for="image">Select your profile image</label>
+                              <input type="file" name="image" id="image"><br>
+
+                              <label for="birthdate">Enter your birthdate :</label>
+                              <input type="date" name="birthdate" id="birthdate"><br>
+
+                              <label for="location">Enter your location :</label>
+                              <input type="text" name="location" id="location"><br>
+
+                              <label for="gender">Select your gender :</label>
+                              <input type="radio" name="gender" id="male" value="male"> Male
+                              <input type="radio" name="gender" id="female" value="female"> Female
+                              <input type="radio" name="gender" id="transgender" value="transgender"> Transgender <br>
+
+                              <label for="education">Select your highest education :</label>
+                              <select name="education" id="education">
+                                   <option value="ug">Under graduation</option>
+                                   <option value="pg">Post graduation</option>
+                              </select><br>
+
+                              <input type="submit" name="submit">
+                         </fieldset>
+                    </form>
+               </div>
+          </div>
+
+     </body>
+
+</html>
